@@ -44,7 +44,6 @@ header {
     font-size: 70px;
     font-weight: 700;
     color: var(--header_text_color);
-    padding-top: -10px;
     line-height: 80px;
     margin-bottom: 20px;
     width: 531px;
@@ -163,7 +162,7 @@ main{
 }
 
 .match-posts{
-    width: 300px;
+    width: 269px;
     height: 242px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;

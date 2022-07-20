@@ -44,7 +44,6 @@ header {
     font-size: 70px;
     font-weight: 700;
     color: var(--header_text_color);
-    padding-top: -10px;
     line-height: 80px;
     margin-bottom: 20px;
     width: 531px;
