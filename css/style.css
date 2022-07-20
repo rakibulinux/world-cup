@@ -19,9 +19,9 @@ body {
 header {
     background-color: #161616;
     border-radius: 30px;
-    width: 1321px;
+    width: 95%;
     height: 646px;
-    margin: 2em auto;
+    margin: 4rem auto;
 }
 
 /* Header Content Part */
