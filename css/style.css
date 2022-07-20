@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --button_color: #DD0000;
+    --header_text_color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFFFFF; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #161616;
+    border-radius: 30px;
+    width: 1321px;
+    height: 646px;
+    margin: 2em auto;
+}
+
+/* Header Content Part */
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-part {
+    width: 531px;
+    height: 424px;
+}
+
+.text-part h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: var(--header_text_color);
+    padding-top: -10px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    width: 531px;
+    height: 240px;
+}
+
+.text-part p {
+    width: 506px;
+    height: 78px;    
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--header_text_color);
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.text-part a {
+    width: 187px;
+    height: 56px;
+    background-color: var(--button_color);
+    padding: 16px 25px;
+    gap: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--header_text_color);
+    font-weight: 400;
+    text-align: center;
+}
+
+.fa-angle-right {
+    color: var(--header_text_color);
+    background-color: var(--button_color);
+    margin-left: 10px;
+}
+
+.image-part {
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+    background: url(../assets/kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
+}
+
+/* Header Part End */
+
