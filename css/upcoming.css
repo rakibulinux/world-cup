@@ -384,6 +384,7 @@ hr{
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         width: 375px;
+        margin: 0;
     }
 
     .side-bar {

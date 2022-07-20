@@ -327,14 +327,15 @@ hr {
 } */
 
 @media screen and (max-width: 576px) {
+    header{
+        margin-left: 20px;
+    }
     .header-content {
         background-color: #161616;
         border-radius: 30px;
         width: 334px;
         height: 472px;
         margin: 0 20px;
-        /* margin-top: 50px;
-        margin-bottom: 130px; */
         flex-direction: column;
         left: 84px;
         top: 271px;
@@ -401,7 +402,6 @@ hr {
         padding: 0;
         width: 233px;
         height: 245px;
-        /* background: fixed; */
     }
 
     .image-part img {
@@ -409,7 +409,6 @@ hr {
         padding: 0;
         width: 233px;
         height: 245px;
-        /* background: fixed; */
     }
 
     .image-part img:hover{
@@ -424,7 +423,6 @@ hr {
     main {
         flex-direction: column;
         align-items: center;
-
     }
 
     .all-blog {
