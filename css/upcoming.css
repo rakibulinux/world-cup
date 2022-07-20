@@ -276,6 +276,201 @@ hr{
 
 /* Mobile Responsive */
 
+@media screen and (min-width:576px) and (max-width:834px) {
+    header{
+        width: 100%;
+        display: flex;
+
+    }
+    .header-content {
+        background-color: #161616;
+        border-radius: 30px;
+        width: 95%;
+        height: 398px;
+        /* margin: 1rem 20px; */
+    }
+
+    .text-part {
+        width: 316px;
+        height: 276px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .text-part h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: var(--header_text_color);
+        margin: 0;
+        width: 289px;
+        height: 150px;
+    }
+
+    .text-part p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--header_text_color);
+        margin-bottom: 40px;
+        width: 316px;
+        height: 48px;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .text-part a {
+        background-color: var(--button_color);
+        padding: 12px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: var(--header_text_color);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .fa-angle-right {
+        color: var(--header_text_color);
+        background-color: var(--button_color);
+        margin-left: 10px;
+    }
+
+    .image-part {
+        margin: 0;
+        padding: 0;
+        width: 323px;
+        height: 340px;
+    }
+
+    .image-part img {
+        margin: 0;
+        padding: 0;
+        width: 323px;
+        height: 340px;
+    }
+
+    .image-part img:hover{
+        margin: 0;
+        padding: 0;
+        width: 323px;
+        height: 340px;
+        transform: scale(-1);
+        transition: 3s ease;
+    }
+
+    main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .all-match {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 734px;
+        margin-left: 0px;
+    }
+
+    .view-all{
+        display: flex;
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 29px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        gap: 10px;
+        width: 131px;
+        height: 47px;
+        background-color: var(--button_color);
+        color: var(--header_text_color);
+    }
+
+    .display-none {
+        display: none;
+      }
+
+    .side-bar {
+        width: 734px;
+        height: 64px;
+        margin: 0px 0px 40px 35px;
+        background-color: #FFFFFF;
+    }
+
+    .side-content ul{
+        display: flex;
+    }
+    .side-link-2{
+        margin-top: 25px;
+    }
+    .side-content ul li {
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+        width: 230px;
+        height: 64px;
+    }
+
+
+    /* Footer Start */
+
+footer {
+    width: 100%;
+    height: 345px;
+    background-color: var(--background_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-logo {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 600;
+    color: var(--header_text_color);
+    text-align: center;
+}
+
+/* .footer-links{
+
+} */
+
+.footer-links ul {
+    width: 635px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: var(--header_text_color);
+}
+
+/* Footer End */
+}
+
 @media screen and (max-width: 576px) {
     header{
         margin-left: 20px;
