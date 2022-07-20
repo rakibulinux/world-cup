@@ -22,7 +22,9 @@ header {
     border-radius: 30px;
     width: 95%;
     height: 646px;
-    margin: 4rem auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 130px;
 }
 
 /* Header Content Part */
@@ -87,6 +89,12 @@ header {
 
 /* Header Part End */
 
+main{
+    display: flex;
+    justify-content: start;
+    width: 95%;
+    margin: 4rem auto;
+}
 
 /* SideBr Part Start */
 
@@ -146,13 +154,24 @@ header {
 
 /* Blog Part Start */
 
-.blog-posts{
+.all-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 
+.blog-posts{
+    width: 312px;
+    height: 362px;
 }
 
 .blog-post{
-    width: 312px;
-    height: 362px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .blog-image{
@@ -175,25 +194,65 @@ header {
     color: #161616;
     font-size: 16px;
     font-weight: 500;
+}
 
+.blog-titel {
+    width: 272px;
+    height: 54px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
 .blog-titel h2{
+    width: 302px;
+    height: 54px;
     color: var(--background_color);
-    font-size: 18px;
+    font-style: normal;
     font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
 }
 
 .blog-info{
     width: 143px;
     height: 26px;
-    background-color: aquamarine;
 }
 
 .blog-info .fa-clock{
     color: #161616;
     background-color: #FFFFFF;
 }
+
+.blog-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time-icon span{
+    margin-left: 10px;
+
+}
+
+.chat-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-icon span{
+    margin-left: 10px;
+
+}
+
 
 
 /* Blog Part End */
