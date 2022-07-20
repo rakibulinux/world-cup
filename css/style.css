@@ -3,6 +3,7 @@
 :root {
     --button_color: #DD0000;
     --header_text_color: #FFFFFF;
+    --background_color: #161616;
 }
 
 * {
@@ -19,9 +20,9 @@ body {
 header {
     background-color: #161616;
     border-radius: 30px;
-    width: 1321px;
+    width: 95%;
     height: 646px;
-    margin: 2em auto;
+    margin: 4rem auto;
 }
 
 /* Header Content Part */
@@ -85,4 +86,115 @@ header {
 }
 
 /* Header Part End */
+
+
+/* SideBr Part Start */
+
+.side-bar{
+    width: 312px;
+    height: 312px;
+    background-color: var(--background_color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar ul li{
+    list-style: none;
+    width: 252px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+}
+
+.side-link-1{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: var(--background_color);
+    background-color: var(--header_text_color);
+}
+
+.side-link-2{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border-radius: 10px;
+    color: var(--background_color);
+    background-color: var(--button_color);
+}
+
+.side-link-1 a{
+    color: black;
+}
+
+.side-link-2 a{
+    color: white;
+}
+
+/* SideBr Part End */
+
+/* Blog Part Start */
+
+.blog-posts{
+
+}
+
+.blog-post{
+    width: 312px;
+    height: 362px;
+}
+
+.blog-image{
+    width: 312px;
+    height: 175px;
+}
+
+.blog-tag{
+    width: 100px;
+    height: 32px;
+    border: 2px solid var(--background_color);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-tag a{
+    text-decoration: none;
+    color: #161616;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.blog-titel h2{
+    color: var(--background_color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.blog-info{
+    width: 143px;
+    height: 26px;
+    background-color: aquamarine;
+}
+
+.blog-info .fa-clock{
+    color: #161616;
+    background-color: #FFFFFF;
+}
+
+
+/* Blog Part End */
 
