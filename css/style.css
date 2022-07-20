@@ -58,20 +58,16 @@ header {
     font-weight: 400;
     color: var(--header_text_color);
     line-height: 26px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .text-part a {
-    width: 187px;
-    height: 56px;
     background-color: var(--button_color);
     padding: 16px 25px;
-    gap: 10px;
     border-radius: 5px;
     text-decoration: none;
     color: var(--header_text_color);
     font-weight: 400;
-    text-align: center;
 }
 
 .fa-angle-right {
@@ -84,7 +80,7 @@ header {
     width: 581px;
     height: 613px;
     margin-top: 33px;
-    background: url(../assets/kisspng-marcelo-vieira-brazil-national-football-team-footb-brazil-5ac0e6b8ef0ed6.png);
+    background: url(../assets/messi.png);
 }
 
 /* Header Part End */
@@ -92,7 +88,7 @@ header {
 main{
     display: flex;
     justify-content: start;
-    width: 95%;
+    width: 97%;
     margin: 4rem auto;
 }
 
@@ -174,9 +170,10 @@ main{
     padding-left: 20px;
 }
 
-.blog-image{
+.blog-image img{
     width: 312px;
     height: 175px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .blog-tag{
@@ -257,3 +254,54 @@ main{
 
 /* Blog Part End */
 
+/* Footer Start */
+
+footer{
+    width: 100%;
+    height: 444px;
+    background-color: var(--background_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+hr{
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);   
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-logo{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    color: var(--header_text_color);
+    text-align: center;
+}
+
+.footer-links{
+
+}
+
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-links ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: var(--header_text_color);
+}
+
+/* Footer End */
